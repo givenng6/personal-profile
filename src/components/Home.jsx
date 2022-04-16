@@ -1,10 +1,19 @@
 import photo from './utils/photo3.jpg';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import {Button, Icon, Typography } from '@mui/material';
+import Footer from './Footer.jsx';
+
+function linkedInOnClick(){
+        window.open("http://www.linkedin.com/in/given-ng-mathebula-817b15209/");
+}
+function gitHubOnClick(){
+    window.open("http://www.github.com/givenng6");
+}
+function twitterOnClick(){
+    window.open("http://www.twitter.com/givenng6");
+}
 
 const Home = () => {
+
     return(
         <div>
             <div style = {HomeStyle}>
@@ -18,19 +27,12 @@ const Home = () => {
                     MATHEBULA
                 </Typography>
 
-                <Button variant="outlined" style = {ButtonStyle}>View My Profile</Button>
+                <Button variant="outlined" style = {ButtonStyle} >MyProfile</Button>
+                <Button variant="outlined" style = {ButtonStyle} >Education</Button>
+                <Button variant="outlined" style = {ButtonStyle} >Skills</Button>
+                <Button variant="outlined" style = {ButtonStyle} >Projects</Button>
             </div>
-            <div style = {HomeFotterStyle}>
-                <Typography variant="h6" gutterBottom component="div" style = {{color: 'white', alignSelf: 'center'}}>
-                    Personal Profile
-                </Typography>
-                <LinkedInIcon sx = {{color: 'white', margin: 1}}/>
-                <GitHubIcon sx = {{color: 'white', margin: 1}}/>
-                <TwitterIcon sx = {{color: 'white', margin: 1}}/>
-                <Typography variant="caption" display="block" gutterBottom style = {{color: 'gray', alignSelf: 'center'}}>
-                    OpenSource Project, Developed by Given Mathebula - 2022
-                </Typography>
-            </div>
+            <Footer/>
         </div>
        
     );
@@ -48,7 +50,6 @@ const HomeStyle = {
 
 const HomeFotterStyle = {
     display: 'flex',
-    height: '25vh',
     background: '#220640',
     flexDirection: 'column',
     alignItems: 'center'
@@ -58,7 +59,7 @@ const ButtonStyle = {
     width: '40%',
     alignSelf: 'center',
     color: 'white',
-    marginTop: 50
+    marginTop: 30
 }
 
 export default Home;
