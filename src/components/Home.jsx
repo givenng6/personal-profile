@@ -1,6 +1,8 @@
 import photo from './utils/photo3.jpg';
 import {Button, Icon, Typography } from '@mui/material';
 import Footer from './Footer.jsx';
+import {BrowserRouter as Router, Route, Routes, useNavigate} from 'react-router-dom';
+import Profile from './Profile.jsx';
 
 function linkedInOnClick(){
         window.open("http://www.linkedin.com/in/given-ng-mathebula-817b15209/");
@@ -14,7 +16,11 @@ function twitterOnClick(){
 
 const Home = () => {
 
+    const navigator = useNavigate();
+    
+
     return(
+        
         <div>
             <div style = {HomeStyle}>
             <Typography variant="h3" gutterBottom component="div" style = {{color: 'white', marginLeft: '20%'}}>
@@ -27,14 +33,17 @@ const Home = () => {
                     MATHEBULA
                 </Typography>
 
-                <Button variant="outlined" style = {ButtonStyle} >MyProfile</Button>
-                <Button variant="outlined" style = {ButtonStyle} >Education</Button>
-                <Button variant="outlined" style = {ButtonStyle} >Skills</Button>
-                <Button variant="outlined" style = {ButtonStyle} >Projects</Button>
+                <Button variant="outlined" style = {ButtonStyle} onClick={() => {navigator("/profile")}}>MyProfile</Button>
+                <Button variant="outlined" style = {ButtonStyle} onClick={() => {navigator("/education")}}>Education</Button>
+                <Button variant="outlined" style = {ButtonStyle} onClick={() => {navigator("/skills")}}>Skills</Button>
+                <Button variant="outlined" style = {ButtonStyle} onClick={() => {navigator("/projects")}}>Projects</Button>
             </div>
             <Footer/>
         </div>
+
        
+
+        
     );
 }
 

@@ -1,10 +1,10 @@
 import {Button, Icon, Typography } from '@mui/material';
 
-const Header = () =>{
+const Header = (props) =>{
     return(
         <div style = {TopContainer}>
             <Typography variant="h5" gutterBottom component="div" style = {{color: 'white'}}>
-                    MyProfile
+                    {props.title}
             </Typography>
 
             <div style = {OptionsStyle}>

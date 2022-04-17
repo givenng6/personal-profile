@@ -8,7 +8,7 @@ const Profile = () => {
     return(
         <div>
         <div style = {HomeStyle}>
-            <Header/>
+            <Header title = 'MyProfile'/>
            
             <div style = {MainViewStyle}>
                 <div>
