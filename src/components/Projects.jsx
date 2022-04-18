@@ -24,7 +24,7 @@ const Projects = () =>{
 
 const HomeStyle = {
 display: 'flex',
-height: '60vh',
+height: '100vh',
 background: '#edf4f5',
 flexDirection: 'column',
 justifyContent: 'center',

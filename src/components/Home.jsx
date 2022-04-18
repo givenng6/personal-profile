@@ -4,16 +4,6 @@ import Footer from './Footer.jsx';
 import {BrowserRouter as Router, Route, Routes, useNavigate} from 'react-router-dom';
 import Profile from './Profile.jsx';
 
-function linkedInOnClick(){
-        window.open("http://www.linkedin.com/in/given-ng-mathebula-817b15209/");
-}
-function gitHubOnClick(){
-    window.open("http://www.github.com/givenng6");
-}
-function twitterOnClick(){
-    window.open("http://www.twitter.com/givenng6");
-}
-
 const Home = () => {
 
     const navigator = useNavigate();
