@@ -42,12 +42,10 @@ const Skills = () =>{
 
 const HomeStyle = {
     display: 'flex',
-    height: '100vh',
     background: '#edf4f5',
     flexDirection: 'row',
     justifyContent: 'center',
     flexWrap: 'wrap',
-    overflowY: 'scroll'
 }
 
 
