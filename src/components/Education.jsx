@@ -18,7 +18,14 @@ const Education = () =>{
     let econArray = ["ECON1012A Economics 1A - Microeconomics", "ECON1014A Economics 1B - Macroeconomics"];
     return(
         <div>
-            <Header title = 'Education'/>
+            <Header title = 'Education' 
+            tab1 = 'MyProfile'
+            state1 = '/profile'
+            tab2 = 'Skills'
+            state2 = '/skills'
+            tab3 = 'Projects'
+            state3 = '/projects'
+            />
              <div style = {HomeStyle}>
                  <img src = {wits} width = {320} height = {200} style = {{alignSelf: 'center', padding: 12, borderRadius: 20}}/>
                  <Typography variant="button" gutterBottom component="div" style = {{color: 'black'}}>

@@ -8,7 +8,14 @@ const Profile = () => {
     return(
         <div>
         <div style = {HomeStyle}>
-            <Header title = 'MyProfile'/>
+            <Header title = 'MyProfile'
+            tab1 = 'Education'
+            state1 = '/education'
+            tab2 = 'Skills'
+            state2 = '/skills'
+            tab3 = 'Projects'
+            state3 = '/projects'
+            />
            
             <div style = {MainViewStyle}>
                 <div>

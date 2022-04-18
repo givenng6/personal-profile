@@ -28,7 +28,7 @@ const CardStyle = {
     height: '45%',
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 10,
+    marginLeft: 11,
     marginTop: 10,
     marginBottom: 10,
     color: 'purple',

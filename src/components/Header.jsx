@@ -1,6 +1,10 @@
 import {Button, Icon, Typography } from '@mui/material';
+import {useNavigate} from 'react-router-dom';
 
 const Header = (props) =>{
+
+    const navigator = useNavigate();
+
     return(
         <div style = {TopContainer}>
             <Typography variant="h5" gutterBottom component="div" style = {{color: 'white'}}>
@@ -8,9 +12,9 @@ const Header = (props) =>{
             </Typography>
 
             <div style = {OptionsStyle}>
-               <Button variant="text" style={{color: 'white'}} >Education</Button>
-               <Button variant="text" style={{color: 'white'}} >Skills</Button>
-               <Button variant="text" style={{color: 'white'}}  >Projects</Button>
+               <Button variant="text" style={{color: 'white'}} onClick = {() => {navigator(props.state1)}}>{props.tab1} </Button>
+               <Button variant="text" style={{color: 'white'}} onClick = {() => {navigator(props.state2)}}>{props.tab2}</Button>
+               <Button variant="text" style={{color: 'white'}} onClick = {() => {navigator(props.state3)}}>{props.tab3}</Button>
            </div>
             </div>
     )

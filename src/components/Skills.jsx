@@ -18,7 +18,14 @@ import php from './utils/assets/php.svg';
 const Skills = () =>{
     return(
         <div>
-            <Header title = 'Skills'/>
+            <Header title = 'Skills'
+            tab1 = 'MyProfile'
+            state1 = '/profile'
+            tab2 = 'Education'
+            state2 = '/education'
+            tab3 = 'Projects'
+            state3 = '/projects'
+            />
              <div style = {HomeStyle}>
                 <SkillCard icon = {java}/>
                 <SkillCard icon = {android}/>
