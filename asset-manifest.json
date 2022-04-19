@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/personal-profile/static/css/main.e6c13ad2.css",
+    "main.js": "/personal-profile/static/js/main.d9c1197c.js",
+    "static/js/787.f586a476.chunk.js": "/personal-profile/static/js/787.f586a476.chunk.js",
+    "static/media/myprofile.jpg": "/personal-profile/static/media/myprofile.ad01a42b6407f662940a.jpg",
+    "static/media/photo3.jpg": "/personal-profile/static/media/photo3.da1aa4d19a96fd16c7e1.jpg",
+    "static/media/wits.jpg": "/personal-profile/static/media/wits.21f817e9deb8ec05b98d.jpg",
+    "static/media/meme404.jpg": "/personal-profile/static/media/meme404.e56077a350ca0c1c8e7d.jpg",
+    "static/media/cam.png": "/personal-profile/static/media/cam.89319f12004dfb068022.png",
+    "static/media/code.png": "/personal-profile/static/media/code.569da3659c41a7c40aa0.png",
+    "static/media/pin.png": "/personal-profile/static/media/pin.8210970acff9062a268b.png",
+    "static/media/php.svg": "/personal-profile/static/media/php.1e73afc4967ab2fe950ba75b323d73b4.svg",
+    "static/media/photo2.jpg": "/personal-profile/static/media/photo2.01aac3072996304176c9.jpg",
+    "static/media/math.png": "/personal-profile/static/media/math.d1965f88d0e639ed28ee.png",
+    "static/media/coms.png": "/personal-profile/static/media/coms.a3406fa6b026d3bd5185.png",
+    "static/media/economics.png": "/personal-profile/static/media/economics.8ccaa9bc17c5b21b198e.png",
+    "static/media/anaconda.svg": "/personal-profile/static/media/anaconda.bbfa2bfa5bc79825c70bd1c05a44296d.svg",
+    "static/media/python.svg": "/personal-profile/static/media/python.af7fb8bab2f10b12cb04731a32fe6015.svg",
+    "static/media/mysql.svg": "/personal-profile/static/media/mysql.de1f441d77fea35c2d6e1338f3cc540a.svg",
+    "static/media/androidstudio.svg": "/personal-profile/static/media/androidstudio.3d82118dba42e845ea3fcefc53e629d7.svg",
+    "static/media/react.svg": "/personal-profile/static/media/react.7c8375868df8c536ab4f2d4078519904.svg",
+    "static/media/jupyter.svg": "/personal-profile/static/media/jupyter.a30a052e52442056febf9c1307c62807.svg",
+    "static/media/java.svg": "/personal-profile/static/media/java.fa3aaa0d9601f02765fd0f91adf5f205.svg",
+    "static/media/latex.svg": "/personal-profile/static/media/latex.e285428eb87473e33b5b7dcd38fbdcbe.svg",
+    "static/media/javascript.svg": "/personal-profile/static/media/javascript.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/css.svg": "/personal-profile/static/media/css.1d023123249332b8246d98e506eaa7a6.svg",
+    "static/media/cplusplus.svg": "/personal-profile/static/media/cplusplus.adac086506565291020b33b1dd86baa3.svg",
+    "index.html": "/personal-profile/index.html",
+    "static/media/figma.svg": "/personal-profile/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
+    "main.e6c13ad2.css.map": "/personal-profile/static/css/main.e6c13ad2.css.map",
+    "main.d9c1197c.js.map": "/personal-profile/static/js/main.d9c1197c.js.map",
+    "787.f586a476.chunk.js.map": "/personal-profile/static/js/787.f586a476.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d9c1197c.js"
+  ]
+}
