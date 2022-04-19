@@ -26,9 +26,13 @@ const Profile = () => {
                 </div>
 
             <Typography variant="body1" gutterBottom style = {BioStyle}>
-                    Given Mathebula is a Third Year Computer Science Student at the University 
-                    of Witwatersrand - lol I don't know what to write about myself... I wanna make the world a 
-                    better place but they don't wanna give me the source code
+                    I am Given Mathebula, that one guy who believe's in technology and 
+                    always goes to bed with the Silicon Valley dream. 
+                    I really wanna make the world a better place but they dont't wanna give me 
+                    the source code. Most of the time all I do is to try and tell the computer
+                    to do something, sometimes it works but most of the time it doesn't.
+                    I made my first Android app in 2017 and obtained third postion in Eskom Expo then
+                    the rest is history. - [I really don't know what to write about myself].
                 </Typography>
             </div>
 
@@ -62,10 +66,10 @@ const Profile = () => {
 
 const HomeStyle = {
     display: 'flex',
-    height: '100vh',
+    //height: '100vh',
     background: '#edf4f5',
     flexDirection: 'column',
-
+    //overflowY: 'scroll'
 }
 
 

@@ -8,13 +8,13 @@ const DisplayCard = (props) =>{
            
            <div style = {BodyStyle}>
             {props.title}
-            <Typography variant="body1" gutterBottom>
+            <Typography variant="body1" gutterBottom style = {{color: '#220640',}}>
                  {props.txt1}  
             </Typography>
-            <Typography variant="body1" gutterBottom>
+            <Typography variant="body1" gutterBottom style = {{color: '#220640',}}>
                 {props.txt2}  
             </Typography>
-            <Typography variant="body1" gutterBottom>
+            <Typography variant="body1" gutterBottom style = {{color: '#220640',}}>
                 {props.txt3}  
             </Typography>
             </div>
@@ -47,6 +47,7 @@ const BodyStyle = {
     borderStyle: 'groove',
     borderRadius: 10,
     marginTop: 4,
+    color: '#220640',
     fontWeight: 'bold'
 }
 
