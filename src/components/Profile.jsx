@@ -3,6 +3,9 @@ import photo from './utils/photo2.jpg';
 import myProfile from './utils/myprofile.jpg';
 import Footer from './Footer.jsx';
 import Header from './Header';
+import DisplayCard from './utils/DisplayCard.jsx';
+import Location from './utils/assets/course-icon/pin.png';
+import Work from './utils/assets/course-icon/portfolio.png';
 
 const Profile = () => {
     return(
@@ -24,9 +27,30 @@ const Profile = () => {
 
             <Typography variant="body1" gutterBottom style = {BioStyle}>
                     Given Mathebula is a Third Year Computer Science Student at the University 
-                    of Witwatersrand - lol I don't know what to write about myself...
+                    of Witwatersrand - lol I don't know what to write about myself... I wanna make the world a 
+                    better place but they don't wanna give me the source code
                 </Typography>
             </div>
+
+            <div style = {CardContainerStyle}>
+            <DisplayCard 
+            title = "Location" 
+            icon = {Location}
+            txt1 = '127.0.0.1'
+            txt2 = 'Braamfontein, JHB'
+            txt3 = 'Bronkhorstspruit'
+            />
+            <DisplayCard 
+            title = "Work" 
+            icon = {Work}
+            txt1 = 'WITS MSS'
+            txt2 = 'Tech Lab Assistant'
+            txt3 = 'Part-time'
+            />
+            
+            </div>
+
+            
 
            
             
@@ -63,6 +87,12 @@ const BioStyle = {
     alignSelf: 'center', 
     color: '#220640',
     margin: 5
+}
+
+const CardContainerStyle ={
+    display: 'flex',
+    justifyContent: 'center',
+    flexWrap: 'wrap'
 }
 
 
